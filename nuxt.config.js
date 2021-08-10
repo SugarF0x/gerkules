@@ -18,12 +18,15 @@ export default {
   css: [
     "~/assets/global.sass"
   ],
-  plugins: [],
+  plugins: [
+    '@/plugins/fragment.ts'
+  ],
   components: true,
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/vuetify',
-    '@nuxtjs/composition-api/module'
+    '@nuxtjs/composition-api/module',
+    ['nuxt-storm', { nested: true }],
   ],
   modules: [
     '@nuxt/content',
