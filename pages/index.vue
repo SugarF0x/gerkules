@@ -1,6 +1,6 @@
 <template>
-  <div>
-    Домашняя страница
+  <div v-frag>
+    <home-header />
   </div>
 </template>
 
