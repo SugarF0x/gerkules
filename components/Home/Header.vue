@@ -1,5 +1,5 @@
 <template>
-  <div class='header fill-height'>
+  <div class='header d-flex align-center'>
     <div class='bg-image' />
     <v-container class='fill-height'>
       <v-row justify='center' align='center'>
@@ -25,6 +25,7 @@
   color: white
   background-color: black
   z-index: 0
+  min-height: 100vh
 
 .bg-image
   position: absolute
