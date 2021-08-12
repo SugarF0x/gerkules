@@ -1,5 +1,5 @@
 <template>
-  <div class='header d-flex align-center'>
+  <header>
     <div class='bg-image' />
     <v-container class='fill-height'>
       <v-row justify='center' align='center'>
@@ -16,11 +16,13 @@
         </v-col>
       </v-row>
     </v-container>
-  </div>
+  </header>
 </template>
 
 <style lang='sass' scoped>
-.header
+header
+  display: flex
+  align-items: center
   position: relative
   color: white
   background-color: black

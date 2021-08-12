@@ -3,6 +3,7 @@
     <home-header />
     <home-about />
     <home-work />
+    <home-footer />
   </div>
 </template>
 
