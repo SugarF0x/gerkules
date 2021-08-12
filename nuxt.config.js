@@ -19,14 +19,14 @@ export default {
     "~/assets/global.sass"
   ],
   plugins: [
-    '@/plugins/fragment.ts'
+    '@/plugins/fragment.ts',
   ],
   components: true,
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/vuetify',
     '@nuxtjs/composition-api/module',
-    ['nuxt-storm', { nested: true }],
+    ['nuxt-storm', { nested: true, alias: true }],
   ],
   modules: [
     '@nuxt/content',
