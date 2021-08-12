@@ -1,0 +1,49 @@
+<template>
+  <section class='work'>
+    <v-container class='pa-0'>
+      <v-row no-gutters>
+        <v-col cols='12' md='4'>
+          <home-work-card color='primary' icon='mdi-crane'>
+            <template #title> Титул и всякое </template>
+            <template #text>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Adipisci autem, consequatur eos maxime nobis repellendus.
+              Asperiores beatae cupiditate eligendi sapiente!
+            </template>
+          </home-work-card>
+        </v-col>
+        <v-col cols='12' md='4'>
+          <home-work-card color='secondary' icon='mdi-account-hard-hat'>
+            <template #title>Интересное название</template>
+            <template #text>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, voluptatibus.
+            </template>
+          </home-work-card>
+        </v-col>
+        <v-col cols='12' md='4'>
+          <home-work-card color='primary' icon='mdi-pencil-ruler'>
+            <template #title>Что-то важное</template>
+            <template #text>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+              aliquam consectetur dignissimos, magni quibusdam sapiente.
+            </template>
+          </home-work-card>
+        </v-col>
+      </v-row>
+    </v-container>
+  </section>
+</template>
+
+<script lang='ts'>
+import { defineComponent } from '@nuxtjs/composition-api'
+
+export default defineComponent({
+  setup() {
+
+  }
+})
+</script>
+
+<style lang='sass' scoped>
+
+</style>

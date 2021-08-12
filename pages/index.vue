@@ -2,6 +2,7 @@
   <div v-frag>
     <home-header />
     <home-about />
+    <home-work />
   </div>
 </template>
 
