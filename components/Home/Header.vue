@@ -67,7 +67,7 @@ header
 
 .company-title
   margin-bottom: 7px
-  font-family: "Century Gothic", sans-serif
+  font-family: "Courier New", monospace
 
 .description-list
   list-style: none
