@@ -1,5 +1,5 @@
 <template>
-  <v-container class='work-card fill-height' :class='color'>
+  <v-container class='card fill-height' :class='color'>
     <v-icon size='80'>{{ icon }}</v-icon>
     <h3>
       <slot name='title' />
@@ -29,7 +29,7 @@ export default defineComponent({
 </script>
 
 <style lang='sass' scoped>
-.work-card
+.card
   display: flex
   flex-flow: column
   align-content: center
