@@ -34,6 +34,17 @@ export default {
   content: {},
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    // theme: {
+    //   themes: {
+    //     light: {
+    //       primary: '#FFCE3E',
+    //       secondary: '#FEE856',
+    //       background: '#1A1A1A',
+    //       backgroundAlternative: '#000000',
+    //       footer: '#262626'
+    //     },
+    //   },
+    // }
   },
   build: {
     babel: {

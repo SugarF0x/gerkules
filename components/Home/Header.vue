@@ -1,5 +1,5 @@
 <template>
-  <div class=' header fill-height'>
+  <div class='header fill-height'>
     <div class='bg-image' />
     <v-container class='fill-height'>
       <v-row justify='center' align='center'>

@@ -1,6 +1,7 @@
 <template>
   <div v-frag>
     <home-header />
+    <home-about />
   </div>
 </template>
 
