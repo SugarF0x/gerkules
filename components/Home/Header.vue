@@ -1,6 +1,5 @@
 <template>
-  <header id='header'>
-    <div class='bg-image' />
+  <header id='header' class='bg-image'>
     <v-container class='fill-height'>
       <v-row justify='center' align='center'>
         <v-col cols='10'>
@@ -23,19 +22,11 @@
 #header
   display: flex
   align-items: center
-  position: relative
   color: white
-  background-color: black
-  z-index: 0
   min-height: 100vh
 
 .bg-image
-  position: absolute
-  width: 100%
-  height: 100%
-  opacity: .4
-  z-index: -1
-  background: url("~assets/img/header_bg.jpg") no-repeat center
+  background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("~assets/img/header_bg.jpg") no-repeat center
   background-size: cover
 
 .title-block
