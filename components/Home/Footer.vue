@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer id='footer'>
     <v-row no-gutters>
       <v-col cols='12' sm='4'>
         <Card color='primary' icon='mdi-phone' class='phone-card'>

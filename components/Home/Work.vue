@@ -1,5 +1,5 @@
 <template>
-  <section class='work'>
+  <section id='work'>
     <v-row no-gutters>
       <v-col cols='12' sm='4'>
         <Card color='primary' icon='mdi-crane'>

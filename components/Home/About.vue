@@ -1,5 +1,5 @@
 <template>
-  <section class='about'>
+  <section id='about'>
     <v-container class='d-flex flex-column'>
       <h2 class='section-title'>О нас</h2>
       <h3 class='display-1'>Предоставляем услуги строительных работ с 1994 года</h3>
