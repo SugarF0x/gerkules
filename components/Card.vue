@@ -1,5 +1,5 @@
 <template>
-  <v-container class='card fill-height' :class='color'>
+  <v-container class='card fill-height' :class='`s-bg--${color}`'>
     <v-icon size='80'>{{ icon }}</v-icon>
     <h3>
       <slot name='title' />
@@ -36,10 +36,4 @@ export default defineComponent({
   text-align: center
   justify-content: flex-start
   padding: 24px
-
-.primary
-  background-color: #FFCE3E !important
-
-.secondary
-  background-color: #FEE856 !important
 </style>
