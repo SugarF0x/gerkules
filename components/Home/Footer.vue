@@ -1,7 +1,7 @@
 <template>
   <footer>
     <v-row no-gutters>
-      <v-col cols='12' md='4'>
+      <v-col cols='12' sm='4'>
         <Card color='primary' icon='mdi-phone' class='phone-card'>
           <template #title>Позвоните нам</template>
           <template #text>
@@ -12,7 +12,7 @@
           </template>
         </Card>
       </v-col>
-      <v-col cols='12' md='4'>
+      <v-col cols='12' sm='4'>
         <Card color='secondary' icon='mdi-email'>
           <template #title>Напишите нам</template>
           <template #text>
@@ -23,7 +23,7 @@
           </template>
         </Card>
       </v-col>
-      <v-col cols='12' md='4'>
+      <v-col cols='12' sm='4'>
         <Card color='primary' icon='mdi-book'>
           <template #title>Приезжайте к нам</template>
           <template #text>
