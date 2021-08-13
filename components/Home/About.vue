@@ -16,6 +16,5 @@
 </template>
 
 <style lang='sass' scoped>
-.section-title
-  font-family: "Courier New", monospace
+
 </style>
