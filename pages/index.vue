@@ -4,6 +4,7 @@
     <home-record />
     <home-about />
     <home-work />
+    <home-recent />
     <home-partners />
     <home-footer />
   </div>
