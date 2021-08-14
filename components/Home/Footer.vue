@@ -2,7 +2,7 @@
   <footer id='footer'>
     <v-row no-gutters>
       <v-col cols='12' sm='4'>
-        <Card color='primary' icon='mdi-phone' class='phone-card'>
+        <Card color='primary' icon='mdi-phone'>
           <template #title>Позвоните нам</template>
           <template #text>
             <ul class='list'>

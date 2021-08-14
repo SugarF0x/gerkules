@@ -4,9 +4,7 @@
     <h3>
       <slot name='title' />
     </h3>
-    <p>
-      <slot name='text' />
-    </p>
+    <slot name='text' />
   </v-container>
 </template>
 
