@@ -11,17 +11,29 @@
       </p>
     </v-container>
     <v-row no-gutters>
-      <v-col cols='12' md='3'>
-        <v-img :src='require("~/assets/img/recent_placeholder_1.jpeg")'/>
-      </v-col>
-      <v-col cols='12' md='3'>
-        <v-img :src='require("~/assets/img/recent_placeholder_2.jpeg")'/>
-      </v-col>
-      <v-col cols='12' md='3'>
-        <v-img :src='require("~/assets/img/recent_placeholder_3.jpeg")'/>
-      </v-col>
-      <v-col cols='12' md='3'>
-        <v-img :src='require("~/assets/img/recent_placeholder_4.jpeg")'/>
+      <v-col
+        v-for='n in 4'
+        :key='`recentImage${n}`'
+        cols='12'
+        md='3'
+      >
+        <v-img
+          :src='require(`~/assets/img/recent_placeholder_${n}.jpeg`)'
+          aspect-ratio='1.5'
+        >
+          <template #placeholder>
+            <v-row
+              class="fill-height ma-0"
+              align="center"
+              justify="center"
+            >
+              <v-progress-circular
+                indeterminate
+                color="grey lighten-5"
+              />
+            </v-row>
+          </template>
+        </v-img>
       </v-col>
     </v-row>
     <v-container class='d-flex'>
