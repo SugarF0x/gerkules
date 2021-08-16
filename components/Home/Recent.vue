@@ -18,7 +18,8 @@
         md='3'
       >
         <v-img
-          :src='require(`~/assets/img/recent_placeholder_${n}.jpeg`)'
+          :src="require(`~/assets/img/recent_placeholder_${n}.jpeg`)"
+          :lazy-src="`/_ipx/recent_placeholder_${n}.jpeg?w=16`"
           aspect-ratio='1.5'
         >
           <template #placeholder>

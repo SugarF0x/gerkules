@@ -27,12 +27,19 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/vuetify',
     '@nuxtjs/composition-api/module',
+    '@nuxt/image',
     ['nuxt-storm', { nested: true, alias: true }],
   ],
   modules: [
     '@nuxt/content',
   ],
   content: {},
+  image: {
+    dir: 'assets/img',
+    screens: {
+      preload: 16
+    }
+  },
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     // theme: {
