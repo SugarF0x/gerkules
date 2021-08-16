@@ -17,24 +17,10 @@
         cols='12'
         md='3'
       >
-        <v-img
-          :src="require(`~/assets/img/recent_placeholder_${n}.jpeg`)"
-          :lazy-src="`/_ipx/recent_placeholder_${n}.jpeg?w=16`"
+        <pre-image
+          :src='`recent_placeholder_${n}.jpeg`'
           aspect-ratio='1.5'
-        >
-          <template #placeholder>
-            <v-row
-              class="fill-height ma-0"
-              align="center"
-              justify="center"
-            >
-              <v-progress-circular
-                indeterminate
-                color="grey lighten-5"
-              />
-            </v-row>
-          </template>
-        </v-img>
+        />
       </v-col>
     </v-row>
     <v-container class='d-flex'>
