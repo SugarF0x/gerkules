@@ -22,7 +22,7 @@
             cols='12'
             sm='3'
           >
-            <Card color='primary-dark' :icon='col.icon' class='transparent'>
+            <Card color='primary-dark' :icon='col.icon' class='transparent text--white'>
               <template #title>{{ col.title }}</template>
               <template #text>
                 <p>
