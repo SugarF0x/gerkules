@@ -1,37 +1,39 @@
 <template>
   <section id='specialty' class='s-bg--primary-dark'>
-    <v-container class='text-center'>
-      <h2 class='section-title'>Чем мы занимаемся</h2>
-      <h3 class='dispaly-1'>Сертификации компании</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad
-        alias aliquid aspernatur at aut culpa cum dicta ea eos inventore itaque
-        laudantium magni nobis nostrum officia omnis pariatur qui totam,
-        voluptate. Atque consequuntur ea et in incidunt neque sed.
-      </p>
-      <v-row
-        v-for='(row, rowIndex) in cards'
-        :key='`cardRow-${rowIndex}`'
-        no-gutters
-        justify='center'
-      >
-        <v-col
-          v-for='(col, colIndex) in row'
-          :key='`card-col-${colIndex}`'
-          cols='12'
-          sm='3'
+    <div class='bg'>
+      <v-container class='text-center'>
+        <h2 class='section-title'>Чем мы занимаемся</h2>
+        <h3 class='dispaly-1'>Сертификации компании</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad
+          alias aliquid aspernatur at aut culpa cum dicta ea eos inventore itaque
+          laudantium magni nobis nostrum officia omnis pariatur qui totam,
+          voluptate. Atque consequuntur ea et in incidunt neque sed.
+        </p>
+        <v-row
+          v-for='(row, rowIndex) in cards'
+          :key='`cardRow-${rowIndex}`'
+          no-gutters
+          justify='center'
         >
-          <Card color='primary-dark' :icon='col.icon'>
-            <template #title>{{ col.title }}</template>
-            <template #text>
-              <p>
-                {{ col.text }}
-              </p>
-            </template>
-          </Card>
-        </v-col>
-      </v-row>
-    </v-container>
+          <v-col
+            v-for='(col, colIndex) in row'
+            :key='`card-col-${colIndex}`'
+            cols='12'
+            sm='3'
+          >
+            <Card color='primary-dark' :icon='col.icon' class='transparent'>
+              <template #title>{{ col.title }}</template>
+              <template #text>
+                <p>
+                  {{ col.text }}
+                </p>
+              </template>
+            </Card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </div>
   </section>
 </template>
 
@@ -75,5 +77,12 @@ class CardData {
 </script>
 
 <style lang='sass' scoped>
+#specialty
+  position: relative
+  display: flex
 
+.bg
+  width: 100%
+  background: linear-gradient(0deg, rgba(26,26,26,0.9), rgba(26,26,26,0.9)), url("~assets/img/city_bg.png") no-repeat center
+  background-size: cover
 </style>
