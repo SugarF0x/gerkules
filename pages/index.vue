@@ -5,6 +5,7 @@
     <home-about />
     <home-work />
     <home-recent />
+    <home-specialty />
     <home-partners />
     <home-footer />
   </div>
