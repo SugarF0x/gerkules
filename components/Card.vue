@@ -1,6 +1,6 @@
 <template>
   <v-container class='card fill-height' :class='`s-bg--${color}`'>
-    <v-icon size='80'>{{ icon }}</v-icon>
+    <v-icon size='80'>{{ `mdi-${icon}` }}</v-icon>
     <h3>
       <slot name='title' />
     </h3>

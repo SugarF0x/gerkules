@@ -2,7 +2,7 @@
   <section id='work'>
     <v-row no-gutters>
       <v-col cols='12' sm='4'>
-        <Card color='primary' icon='mdi-crane'>
+        <Card color='primary' icon='crane'>
           <template #title> Титул и всякое </template>
           <template #text>
             <p>
@@ -14,7 +14,7 @@
         </Card>
       </v-col>
       <v-col cols='12' sm='4'>
-        <Card color='secondary' icon='mdi-account-hard-hat'>
+        <Card color='secondary' icon='account-hard-hat'>
           <template #title>Интересное название</template>
           <template #text>
             <p>
@@ -24,7 +24,7 @@
         </Card>
       </v-col>
       <v-col cols='12' sm='4'>
-        <Card color='primary' icon='mdi-pencil-ruler'>
+        <Card color='primary' icon='pencil-ruler'>
           <template #title>Что-то важное</template>
           <template #text>
             <p>
