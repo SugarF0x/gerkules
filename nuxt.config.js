@@ -63,5 +63,8 @@ export default {
   },
   generate: {
     interval: 2000,
+  },
+  server: {
+    host: '0.0.0.0'
   }
 }
