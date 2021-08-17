@@ -27,4 +27,7 @@ export default defineComponent({
 .link-button
   padding: 6px 30px !important
   font-family: "Courier New", monospace
+
+  p + &
+    margin-top: 6px
 </style>
