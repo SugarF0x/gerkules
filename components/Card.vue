@@ -9,13 +9,20 @@
 </template>
 
 <script lang='ts'>
-import { defineComponent, PropType } from '@nuxtjs/composition-api'
+import { defineComponent } from '@nuxtjs/composition-api'
+
+const ColorUnion = [
+  'primary',
+  'secondary',
+  'primary-dark',
+  'secondary-dark'
+]
 
 export default defineComponent({
   props: {
     color: {
-      type: String as PropType<'primary' | 'secondary'>,
-      validator: (value: string) => ['primary', 'secondary'].includes(value),
+      type: String,
+      validator: (value: string) => ColorUnion.includes(value),
       required: true
     },
     icon: {
