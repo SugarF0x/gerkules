@@ -2,7 +2,7 @@
   <header id='header' class='bg-image'>
     <v-container class='fill-height'>
       <v-row justify='center' align='center'>
-        <v-col cols='10'>
+        <v-col cols='10' lg='8'>
           <div class='title-block'>
             <h4 class='company-subtitle'>Производственно-строительная компания</h4>
             <h1 class='company-title'>«Геркулес»</h1>
@@ -33,6 +33,11 @@
   text-align: center
   position: relative
   padding: 0 15px
+
+  @media(min-width: 480px)
+    font-size: 1.5em
+  @media(min-width: 960px)
+    font-size: 2em
 
   @mixin bracket()
     content: ''
