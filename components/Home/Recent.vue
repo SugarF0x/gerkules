@@ -1,6 +1,6 @@
 <template>
   <section id='recent'>
-    <v-container>
+    <v-container class='text-center'>
       <h2 class='section-title'>Недавние проекты</h2>
       <h3 class='display-1'>Мы предоставляем широкий спектр услуг</h3>
       <p>
