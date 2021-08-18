@@ -6,6 +6,7 @@
     <home-work />
     <home-recent />
     <home-specialty />
+    <home-quote />
     <home-partners />
     <home-footer />
   </div>
