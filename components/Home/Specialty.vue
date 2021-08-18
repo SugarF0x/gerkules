@@ -21,6 +21,7 @@
             cols='12'
             sm='6'
             md='4'
+            class='px-xl-16'
           >
             <Card color='primary-dark' :icon='col.icon' class='transparent text--white'>
               <template #title>{{ col.title }}</template>
