@@ -4,7 +4,7 @@
       <v-row justify='center' align='center'>
         <v-col cols='10' lg='8'>
           <div class='title-block'>
-            <h4 class='company-subtitle'>Производственно-строительная компания</h4>
+            <h5 class='company-subtitle'>Производственно-строительная компания</h5>
             <h1 class='company-title'>«Геркулес»</h1>
             <ul class='description-list'>
               <li>Строительство</li>
@@ -68,12 +68,14 @@ export default defineComponent({
     border-left: none
 
 .company-subtitle
-  font-weight: 400
-  letter-spacing: 1.5px
+  text-transform: uppercase
+  letter-spacing: 3px
+  font-weight: 700
+  font-family: "Courier New", monospace
 
 .company-title
   margin-bottom: 7px
-  font-family: "Courier New", monospace
+  font-family: "Book Antiqua", monospace
 
 .description-list
   list-style: none
@@ -83,4 +85,5 @@ export default defineComponent({
   line-height: 1.3
   letter-spacing: .5px
   font-style: italic
+  font-family: "Century Gothic", sans-serif
 </style>
