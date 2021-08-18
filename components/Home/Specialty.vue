@@ -4,23 +4,23 @@
       <v-container class='text-center'>
         <h2 class='section-title'>Чем мы занимаемся</h2>
         <h3 class='dispaly-1'>Сертификации компании</h3>
-        <p>
+        <p class='mx-sm-8 mx-md-16'>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad
           alias aliquid aspernatur at aut culpa cum dicta ea eos inventore itaque
           laudantium magni nobis nostrum officia omnis pariatur qui totam,
           voluptate. Atque consequuntur ea et in incidunt neque sed.
         </p>
         <v-row
-          v-for='(row, rowIndex) in cards'
-          :key='`cardRow-${rowIndex}`'
           no-gutters
           justify='center'
+          class='mx-sm-8 mx-md-16'
         >
           <v-col
-            v-for='(col, colIndex) in row'
+            v-for='(col, colIndex) in cards'
             :key='`card-col-${colIndex}`'
             cols='12'
-            sm='3'
+            sm='6'
+            md='4'
           >
             <Card color='primary-dark' :icon='col.icon' class='transparent text--white'>
               <template #title>{{ col.title }}</template>
@@ -42,21 +42,17 @@ import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
   setup() {
-    const cards: [string, string][][] = [
-      [
-        ['home-city-outline', 'Дома'],
-        ['warehouse', 'Склады'],
-        ['church', 'Храмы']
-      ],
-      [
-        ['bridge', 'Мосты'],
-        ['road-variant', 'Дороги'],
-        ['highway','Автострады']
-      ]
+    const cards: [string, string][] = [
+      ['home-city-outline', 'Дома'],
+      ['warehouse', 'Склады'],
+      ['church', 'Храмы'],
+      ['bridge', 'Мосты'],
+      ['road-variant', 'Дороги'],
+      ['highway','Автострады']
     ]
 
     return {
-      cards: cards.map(a => a.map((d) => new CardData(...d)))
+      cards: cards.map(a => new CardData(...a))
     }
   }
 })

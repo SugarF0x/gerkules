@@ -15,6 +15,7 @@
         v-for='n in 4'
         :key='`recentImage${n}`'
         cols='12'
+        sm='6'
         md='3'
       >
         <pre-image
