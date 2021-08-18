@@ -38,6 +38,12 @@
   </section>
 </template>
 
-<style lang='sass' scoped>
+<script lang='ts'>
+import { defineComponent } from "@nuxtjs/composition-api"
 
-</style>
+export default defineComponent({
+  setup() {
+
+  }
+})
+</script>
