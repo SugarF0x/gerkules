@@ -35,7 +35,6 @@ export default {
   ],
   content: {},
   image: {
-    dir: 'assets/img',
     screens: {
       preload: 16
     }

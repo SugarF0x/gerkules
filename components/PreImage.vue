@@ -37,11 +37,11 @@ export default defineComponent({
     const { src } = toRefs(props)
 
     const properSrc = computed(() => {
-      return require(`~/assets/img/${src.value}`)
+      return `/img/${src.value}`
     })
 
     const lazySrc = computed(() => {
-      return `/_ipx/${src.value}?w=16`
+      return `/_ipx/img/${src.value}?w=16`
     })
 
     return {
