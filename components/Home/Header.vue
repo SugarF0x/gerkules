@@ -1,8 +1,9 @@
 <template>
   <header id='header' class='bg-image'>
     <v-container class='fill-height'>
-      <v-row justify='center' align='center'>
-        <v-col cols='10' lg='8'>
+      <v-row justify='center' align='center' class='flex-column mt-n16'>
+        <v-img src='/logo_large.png' width='228' height='188' />
+        <v-col cols='10' lg='8' class='mt-16'>
           <div class='title-block'>
             <h5 class='company-subtitle'>Производственно-строительная компания</h5>
             <h1 class='company-title'>«Геркулес»</h1>
