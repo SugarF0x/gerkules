@@ -37,7 +37,7 @@ export default defineComponent({
   min-height: 100vh
 
 .bg-image
-  background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/img/header_bg.jpg") no-repeat center
+  background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("~assets/img/header_bg.jpg") no-repeat center
   background-size: cover
 
 .title-block

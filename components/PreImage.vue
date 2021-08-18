@@ -20,7 +20,7 @@
 </template>
 
 <script lang='ts'>
-import { computed, defineComponent, toRefs } from '@nuxtjs/composition-api'
+import { computed, defineComponent, toRefs, wrapProperty } from '@nuxtjs/composition-api'
 
 export default defineComponent({
   props: {
@@ -35,13 +35,14 @@ export default defineComponent({
   },
   setup(props) {
     const { src } = toRefs(props)
+    const img = wrapProperty('$img', false)()
 
     const properSrc = computed(() => {
-      return `/img/${src.value}`
+      return require(`~/assets/img/${src.value}`)
     })
 
     const lazySrc = computed(() => {
-      return `/_ipx/img/${src.value}?w=16`
+      return img(src.value, { width: 16, height: 16 })
     })
 
     return {

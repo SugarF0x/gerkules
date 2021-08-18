@@ -28,7 +28,7 @@ export default defineComponent({
 
 <style lang='sass' scoped>
 #quote
-  background: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("/img/worker_bg.jpg") no-repeat center
+  background: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("~assets/img/worker_bg.jpg") no-repeat center
   background-size: cover
   padding: 48px
   color: white

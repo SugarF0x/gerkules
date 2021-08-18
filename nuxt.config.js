@@ -35,9 +35,7 @@ export default {
   ],
   content: {},
   image: {
-    screens: {
-      preload: 16
-    }
+    dir: 'assets/img'
   },
   vuetify: {
     customVariables: ['~/assets/variables.scss'],

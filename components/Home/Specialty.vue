@@ -80,6 +80,6 @@ class CardData {
 
 .bg
   width: 100%
-  background: linear-gradient(0deg, rgba(26,26,26,0.9), rgba(26,26,26,0.9)), url("/img/city_bg.png") no-repeat center
+  background: linear-gradient(0deg, rgba(26,26,26,0.9), rgba(26,26,26,0.9)), url("~assets/img/city_bg.png") no-repeat center
   background-size: cover
 </style>
