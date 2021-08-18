@@ -2,10 +2,10 @@
   <section id='record'>
     <v-container>
       <v-row justify='center' align='center'>
-        <v-col cols='12' md='3'>
+        <v-col cols='12' sm='4' lg='3'>
           <h2 class='display-4 s-text--primary font-weight-bold text-center'>255</h2>
         </v-col>
-        <v-col cols='12' md='3' class='text-center'>
+        <v-col cols='12' sm='6' lg='3' class='text-center'>
           <h3>Завершённых проектов</h3>
           <p>
             <i>
@@ -15,7 +15,7 @@
             </i>
           </p>
         </v-col>
-        <v-col cols='12' md='3'>
+        <v-col cols='12' sm='10' md='8' lg='4'>
           <v-card tile>
             <v-card-title class='s-bg--primary-dark card-title'>Моделирование информации по задаче</v-card-title>
             <v-card-text class='s-bg--primary pt-5'>
