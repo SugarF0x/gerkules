@@ -17,6 +17,6 @@ export default defineComponent({
   display: inline-block
 
 .logo
-  display: inline-flex
+  display: flex
   align-items: center
 </style>

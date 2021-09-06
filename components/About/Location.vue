@@ -20,7 +20,7 @@
             src="https://yandex.ru/map-widget/v1/?um=constructor%3Afc0a8c44faa48fe7e9d3d94688bc46bd02c59f8833aa421a58f8b0aa2c8dc967&amp;source=constructor"
             width="100%"
             height="450"
-          ></iframe>
+          />
         </v-col>
       </v-row>
     </v-container>

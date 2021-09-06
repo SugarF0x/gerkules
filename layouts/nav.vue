@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" class="d-lg-none s-bg--primary" right fixed>
+    <v-navigation-drawer v-model="drawer" class="d-sm-none" dark right fixed>
       <v-layout class="fill-height" column>
         <v-list class="text-uppercase">
           <v-list-item v-for="link in links" :key="link.text" :to="link.path" :disabled="link.disabled" router exact>
@@ -14,7 +14,7 @@
       </v-layout>
     </v-navigation-drawer>
 
-    <v-app-bar app class="navbar s-bg--primary">
+    <v-app-bar app class="navbar" dark>
       <router-link to="/" class="link">
         <v-toolbar-title class="logo">
           <Logo />
@@ -24,12 +24,12 @@
 
       <v-spacer />
 
-      <v-toolbar-items class="d-none d-lg-flex">
-        <v-btn v-for="link in links" :key="link.text" :to="link.path" :disabled="link.disabled" class="s-bg--secondary">
+      <v-toolbar-items class="d-none d-sm-flex">
+        <v-btn v-for="link in links" :key="link.text" :to="link.path" :disabled="link.disabled">
           {{ link.text }}
         </v-btn>
       </v-toolbar-items>
-      <v-app-bar-nav-icon class="d-lg-none" @click="drawer = !drawer" />
+      <v-app-bar-nav-icon class="d-sm-none" @click="drawer = !drawer" />
     </v-app-bar>
 
     <v-main>
@@ -93,14 +93,17 @@ export default defineComponent({
   flex-flow: row
   align-items: center
   text-decoration: none
-  color: initial
   font-size: 2rem
+  color: white
 
   span
     margin-left: .5rem
 
 .link
   text-decoration: none
+
+.toolbar
+  padding-right: 0
 
 .navbar
   min-height: 56px
@@ -112,15 +115,20 @@ export default defineComponent({
   justify-content: center
   text-align: center
 
-.logo
-  margin-bottom: .5rem
-
 footer
   text-align: center
+
+  .logo
+    margin-bottom: .5rem
 
   ul
     list-style: none
     padding-left: 0
     a
       text-decoration: underline
+</style>
+
+<style lang="sass">
+.v-toolbar__content
+  padding-right: 0
 </style>
