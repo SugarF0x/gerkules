@@ -1,13 +1,13 @@
 <template>
-  <header id='header' class='bg-image'>
-    <v-container class='fill-height'>
-      <v-row justify='center' align='center' class='flex-column mt-n16'>
-        <v-img src='/logo_large.png' width='228' height='188' />
-        <v-col cols='10' lg='8' class='mt-16'>
-          <div class='title-block'>
-            <h5 class='company-subtitle'>Производственно-строительная компания</h5>
-            <h1 class='company-title'>«Геркулес»</h1>
-            <ul class='description-list'>
+  <header id="header" class="bg-image">
+    <v-container class="fill-height">
+      <v-row justify="center" align="center" class="flex-column mt-n16">
+        <v-img src="/logo_large.png" width="228" height="188" />
+        <v-col cols="10" lg="8" class="mt-16">
+          <div class="title-block">
+            <h5 class="company-subtitle">Производственно-строительная компания</h5>
+            <h1 class="company-title">«Геркулес»</h1>
+            <ul class="description-list">
               <li>Строительство</li>
               <li>Реконструкция</li>
               <li>Ремонт</li>
@@ -19,17 +19,15 @@
   </header>
 </template>
 
-<script lang='ts'>
+<script lang="ts">
 import { defineComponent } from "@nuxtjs/composition-api"
 
 export default defineComponent({
-  setup() {
-
-  }
+  setup() {},
 })
 </script>
 
-<style lang='sass' scoped>
+<style lang="sass" scoped>
 #header
   display: flex
   align-items: center
@@ -38,6 +36,7 @@ export default defineComponent({
   min-height: 100vh
 
 .bg-image
+  //noinspection CssUnknownTarget
   background: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("~assets/img/header_bg.jpg") no-repeat center
   background-size: cover
 
