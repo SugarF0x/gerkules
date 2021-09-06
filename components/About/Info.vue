@@ -1,19 +1,13 @@
 <template>
-  <section id='info'>
-    info
-  </section>
+  <section id="info">info</section>
 </template>
 
-<script lang='ts'>
-import { defineComponent } from '@nuxtjs/composition-api'
+<script lang="ts">
+import { defineComponent } from "@nuxtjs/composition-api"
 
 export default defineComponent({
-  setup() {
-
-  }
+  setup() {},
 })
 </script>
 
-<style lang='sass' scoped>
-
-</style>
+<style lang="sass" scoped></style>

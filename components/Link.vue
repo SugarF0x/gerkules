@@ -1,13 +1,5 @@
 <template>
-  <v-btn
-    nuxt
-    tile
-    elevation="0"
-    :to="to"
-    color="#FFCE3E"
-    class="link-button"
-    :disabled="disabled"
-  >
+  <v-btn nuxt tile elevation="0" :to="to" color="#FFCE3E" class="link-button" :disabled="disabled">
     <slot />
   </v-btn>
 </template>

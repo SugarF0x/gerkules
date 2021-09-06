@@ -1,20 +1,18 @@
 <template>
-  <div class='logo'>
-    <v-img src='/logo_small.png' class='image' height='48' width='48' />
+  <div class="logo">
+    <v-img src="/logo_small.png" class="image" height="48" width="48" />
   </div>
 </template>
 
-<script lang='ts'>
-import { defineComponent } from '@nuxtjs/composition-api'
+<script lang="ts">
+import { defineComponent } from "@nuxtjs/composition-api"
 
 export default defineComponent({
-  setup() {
-
-  }
+  setup() {},
 })
 </script>
 
-<style lang='sass' scoped>
+<style lang="sass" scoped>
 .logo, .image
   display: inline-block
 

@@ -1,22 +1,17 @@
 <template>
-  <v-container class='card fill-height' :class='`s-bg--${color}`'>
-    <v-icon size='80'>{{ `mdi-${icon}` }}</v-icon>
+  <v-container class="card fill-height" :class="`s-bg--${color}`">
+    <v-icon size="80">{{ `mdi-${icon}` }}</v-icon>
     <h3>
-      <slot name='title' />
+      <slot name="title" />
     </h3>
-    <slot name='text' />
+    <slot name="text" />
   </v-container>
 </template>
 
-<script lang='ts'>
-import { defineComponent, PropType } from '@nuxtjs/composition-api'
+<script lang="ts">
+import { defineComponent, PropType } from "@nuxtjs/composition-api"
 
-const ColorUnion = [
-  'primary',
-  'secondary',
-  'primary-dark',
-  'secondary-dark'
-] as const
+const ColorUnion = ["primary", "secondary", "primary-dark", "secondary-dark"] as const
 type ColorUnionType = typeof ColorUnion[number]
 
 export default defineComponent({
@@ -24,17 +19,17 @@ export default defineComponent({
     color: {
       type: String as PropType<ColorUnionType>,
       validator: (value: ColorUnionType) => ColorUnion.includes(value),
-      required: true
+      required: true,
     },
     icon: {
       type: String,
-      required: true
-    }
+      required: true,
+    },
   },
 })
 </script>
 
-<style lang='sass' scoped>
+<style lang="sass" scoped>
 .card
   display: flex
   flex-flow: column

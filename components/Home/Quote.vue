@@ -1,33 +1,29 @@
 <template>
-  <section id='quote' class='text-center'>
-    <v-icon color='white' size='80'>mdi-book-open-page-variant</v-icon>
-    <p class='text text-justify text-sm-center'>
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
-      esse facilis, in iste laboriosam laborum. Accusamus adipisci dolorem ea,
-      et ipsum optio temporibus voluptate! A architecto at cumque dolor eveniet
-      laudantium nisi quasi repellendus ullam velit. Aliquid amet aut autem
-      deleniti ducimus ea error facere iusto laborum laudantium mollitia nam
-      omnis placeat quas, quasi quod repudiandae rerum sequi sint sit, veritatis
-      vitae voluptas voluptatum. Adipisci cupiditate enim exercitationem fugit
-      mollitia quibusdam repellat tenetur. Deserunt itaque labore tenetur
-      voluptate. Error, expedita?"
+  <section id="quote" class="text-center">
+    <v-icon color="white" size="80">mdi-book-open-page-variant</v-icon>
+    <p class="text text-justify text-sm-center">
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur esse facilis, in iste laboriosam laborum.
+      Accusamus adipisci dolorem ea, et ipsum optio temporibus voluptate! A architecto at cumque dolor eveniet
+      laudantium nisi quasi repellendus ullam velit. Aliquid amet aut autem deleniti ducimus ea error facere iusto
+      laborum laudantium mollitia nam omnis placeat quas, quasi quod repudiandae rerum sequi sint sit, veritatis vitae
+      voluptas voluptatum. Adipisci cupiditate enim exercitationem fugit mollitia quibusdam repellat tenetur. Deserunt
+      itaque labore tenetur voluptate. Error, expedita?"
     </p>
-    <h4 class='author'>- Вильям Шекспир, 2012г н.э.</h4>
+    <h4 class="author">- Вильям Шекспир, 2012г н.э.</h4>
   </section>
 </template>
 
-<script lang='ts'>
-import { defineComponent } from '@nuxtjs/composition-api'
+<script lang="ts">
+import { defineComponent } from "@nuxtjs/composition-api"
 
 export default defineComponent({
-  setup() {
-
-  }
+  setup() {},
 })
 </script>
 
-<style lang='sass' scoped>
+<style lang="sass" scoped>
 #quote
+  //noinspection CssUnknownTarget
   background: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("~assets/img/worker_bg.jpg") no-repeat center
   background-size: cover
   padding: 48px
