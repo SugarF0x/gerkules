@@ -1,5 +1,30 @@
 <template>
-  <section id="location" class="s-bg--primary-dark">ass</section>
+  <section id="location">
+    <v-container class="pb-0">
+      <v-row>
+        <v-col cols="12" sm="6" class="order-1 order-sm-2">
+          <h2>Где мы находимся</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt doloribus eos est facilis molestiae quam
+            quasi quis? Dicta dolor ipsum maiores minima officia provident quam repellat ullam! Architecto, blanditiis
+            corporis est, excepturi maxime modi officia placeat possimus repudiandae sapiente unde?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, amet beatae commodi consequuntur culpa
+            dignissimos earum excepturi fuga illo in incidunt laudantium libero magnam maxime, nisi nostrum numquam,
+            perspiciatis praesentium quam quisquam ratione rem repellat tempore tenetur vitae! Excepturi, provident.
+          </p>
+        </v-col>
+        <v-col cols="12" sm="6" class="order-2 order-sm-1 pa-0 pa-sm-4">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Afc0a8c44faa48fe7e9d3d94688bc46bd02c59f8833aa421a58f8b0aa2c8dc967&amp;source=constructor"
+            width="100%"
+            height="450"
+          ></iframe>
+        </v-col>
+      </v-row>
+    </v-container>
+  </section>
 </template>
 
 <script lang="ts">
@@ -10,4 +35,9 @@ export default defineComponent({
 })
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+iframe
+  border: 0
+  min-height: 450px
+  background-color: lightgray
+</style>
