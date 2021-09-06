@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" class="d-lg-none" right fixed dark>
+    <v-navigation-drawer v-model="drawer" class="d-lg-none s-bg--primary" right fixed>
       <v-layout class="fill-height" column>
         <v-list class="text-uppercase">
           <v-list-item v-for="link in links" :key="link.text" :to="link.path" :disabled="link.disabled" router exact>
@@ -14,7 +14,7 @@
       </v-layout>
     </v-navigation-drawer>
 
-    <v-app-bar app dark class="navbar">
+    <v-app-bar app class="navbar s-bg--primary">
       <router-link to="/" class="link">
         <v-toolbar-title class="logo">
           <Logo />
@@ -25,7 +25,7 @@
       <v-spacer />
 
       <v-toolbar-items class="d-none d-lg-flex">
-        <v-btn v-for="link in links" :key="link.text" :to="link.path" :disabled="link.disabled">
+        <v-btn v-for="link in links" :key="link.text" :to="link.path" :disabled="link.disabled" class="s-bg--secondary">
           {{ link.text }}
         </v-btn>
       </v-toolbar-items>
@@ -66,7 +66,7 @@ export default defineComponent({
   flex-flow: row
   align-items: center
   text-decoration: none
-  color: white
+  color: initial
   font-size: 2rem
 
   span
@@ -76,5 +76,5 @@ export default defineComponent({
   text-decoration: none
 
 .navbar
-  min-height: 64px
+  min-height: 56px
 </style>
