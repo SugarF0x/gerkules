@@ -35,6 +35,33 @@
     <v-main>
       <nuxt />
     </v-main>
+
+    <v-footer app absolute class="s-bg--primary-dark">
+      <v-container>
+        <v-row>
+          <v-col cols="12" sm="4">
+            <h3>Сертификации</h3>
+            <ul>
+              <li><a>Документ о чём-то</a></li>
+              <li><a>Сертификат о том-то</a></li>
+              <li><a>Публикация об этом-то</a></li>
+            </ul>
+          </v-col>
+          <v-col cols="12" sm="4">
+            <h3>Контактная информация</h3>
+            <ul>
+              <li>Телефон: <a href="tel:88002553535">+7 (915) 150-34-45</a></li>
+              <li>E-mail: <a href="mailto:example@example.ru">example@example.ru</a></li>
+            </ul>
+          </v-col>
+          <v-col cols="12" sm="4" class="copyright">
+            <Logo class="logo" />
+            <div>ООО "Геркулес"</div>
+            <div>&copy; 1990 - 2021</div>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-footer>
   </v-app>
 </template>
 
@@ -77,4 +104,23 @@ export default defineComponent({
 
 .navbar
   min-height: 56px
+
+.copyright
+  display: flex
+  flex-flow: column
+  align-items: center
+  justify-content: center
+  text-align: center
+
+.logo
+  margin-bottom: .5rem
+
+footer
+  text-align: center
+
+  ul
+    list-style: none
+    padding-left: 0
+    a
+      text-decoration: underline
 </style>
