@@ -31,21 +31,19 @@ export default defineComponent({
   },
 })
 
-const cards: [string, string][] = [
+const cards: [string, string, string][] = [
   ["home-city-outline", "Жилые дома", "Мало- и среднеэтажное строительство от получения земли, до сдачи под ключ"],
   ["warehouse", "Склады, Производственные здания, Торговые центры", "Строительство с нуля, ремонт и реконструкции"],
   ["church", "Храмы", "Реставрационные работы на кровлях, куполах, фасадах"],
   ["bridge", "Мосты/Эстакады", "Бетонные работы на опорах и проезжей части мостовых переходов"],
 ]
 
-const SampleText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, laboriosam?"
-
 class CardData {
   icon: string
   title: string
   text: string
 
-  constructor(icon: string, title: string, text = SampleText) {
+  constructor(icon: string, title: string, text: string) {
     this.icon = icon
     this.title = title
     this.text = text
