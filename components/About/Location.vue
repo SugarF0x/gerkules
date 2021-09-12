@@ -4,15 +4,10 @@
       <v-row>
         <v-col cols="12" sm="6" class="order-1 order-sm-2">
           <h2>Где мы находимся</h2>
+
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt doloribus eos est facilis molestiae quam
-            quasi quis? Dicta dolor ipsum maiores minima officia provident quam repellat ullam! Architecto, blanditiis
-            corporis est, excepturi maxime modi officia placeat possimus repudiandae sapiente unde?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, amet beatae commodi consequuntur culpa
-            dignissimos earum excepturi fuga illo in incidunt laudantium libero magnam maxime, nisi nostrum numquam,
-            perspiciatis praesentium quam quisquam ratione rem repellat tempore tenetur vitae! Excepturi, provident.
+            Московская&nbsp;обл., Пушкинский&nbsp;р-н, пос.&nbsp;Лесные&nbsp;Поляны,
+            мкр&#8288;&#8211;&#8288;н&nbsp;Полянка, д.43.
           </p>
         </v-col>
         <v-col cols="12" sm="6" class="order-2 order-sm-1 pa-0 pa-sm-4">

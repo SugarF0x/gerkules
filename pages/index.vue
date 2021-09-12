@@ -3,7 +3,7 @@
     <home-header />
     <home-record />
     <home-about />
-    <home-work />
+    <!--    <home-work />-->
     <home-recent />
     <home-specialty />
     <home-quote />

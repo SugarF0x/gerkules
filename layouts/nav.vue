@@ -40,24 +40,25 @@
       <v-container>
         <v-row>
           <v-col cols="12" sm="4">
-            <h3>Сертификации</h3>
+            <h3>Контактные номера</h3>
             <ul>
-              <li><a>Документ о чём-то</a></li>
-              <li><a>Сертификат о том-то</a></li>
-              <li><a>Публикация об этом-то</a></li>
-            </ul>
-          </v-col>
-          <v-col cols="12" sm="4">
-            <h3>Контактная информация</h3>
-            <ul>
-              <li>Телефон: <a href="tel:88002553535">+7 (915) 150-34-45</a></li>
-              <li>E-mail: <a href="mailto:example@example.ru">example@example.ru</a></li>
+              <li v-for="phone in PHONES" :key="phone">
+                <a :href="`tel:${phone}`">{{ formatPhone(phone) }}</a>
+              </li>
             </ul>
           </v-col>
           <v-col cols="12" sm="4" class="copyright">
             <Logo class="logo" />
             <div>ООО "Геркулес"</div>
             <div>&copy; 1990 - 2021</div>
+          </v-col>
+          <v-col cols="12" sm="4">
+            <h3>Контактные почты</h3>
+            <ul>
+              <li v-for="mail in MAILS" :key="mail">
+                <a :href="`mailto:${mail}`">{{ mail }}</a>
+              </li>
+            </ul>
           </v-col>
         </v-row>
       </v-container>
@@ -67,6 +68,8 @@
 
 <script lang="ts">
 import { defineComponent, ref } from "@nuxtjs/composition-api"
+import { PHONES, MAILS } from "~/assets/consts"
+import { formatPhone } from "~/assets/util"
 
 const links = [
   { text: "О нас", path: "/about", disabled: false },
@@ -82,6 +85,9 @@ export default defineComponent({
     return {
       drawer,
       links,
+      PHONES,
+      MAILS,
+      formatPhone,
     }
   },
 })

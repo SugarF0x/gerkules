@@ -2,14 +2,12 @@
   <section id="quote" class="text-center">
     <v-icon color="white" size="80">mdi-book-open-page-variant</v-icon>
     <p class="text text-justify text-sm-center">
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur esse facilis, in iste laboriosam laborum.
-      Accusamus adipisci dolorem ea, et ipsum optio temporibus voluptate! A architecto at cumque dolor eveniet
-      laudantium nisi quasi repellendus ullam velit. Aliquid amet aut autem deleniti ducimus ea error facere iusto
-      laborum laudantium mollitia nam omnis placeat quas, quasi quod repudiandae rerum sequi sint sit, veritatis vitae
-      voluptas voluptatum. Adipisci cupiditate enim exercitationem fugit mollitia quibusdam repellat tenetur. Deserunt
-      itaque labore tenetur voluptate. Error, expedita?"
+      "Существуют две истины – о страдании и возникновении страдания. Главная причина страданий – в неуемности
+      человеческих желаний. Однако эти желания не ведут к счастью. Они либо неисполнимы, и это приносит печаль, либо
+      исполняются, и тогда мы убеждаемся в эфемерности своего счастья, а страх потери лишает его смысла. Но мы
+      продолжаем желать вновь и вновь, и именно эта ненасытная жажда толкает нас от одной вереницы страданий к другой."
     </p>
-    <h4 class="author">- Вильям Шекспир, 2012г н.э.</h4>
+    <h4 class="author">- Сиддхартха Гаутама</h4>
   </section>
 </template>
 
