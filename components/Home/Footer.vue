@@ -6,8 +6,9 @@
           <template #title>Позвоните нам</template>
           <template #text>
             <ul class="list">
-              <li><a href="tel:88002553535">+7 (915) 150-34-45</a></li>
-              <li><a href="tel:89852252525">+7 (985) 225-25-25</a></li>
+              <li v-for="phone in PHONES" :key="phone">
+                <a :href="`tel:${phone}`">{{ formatPhone(phone) }}</a>
+              </li>
             </ul>
           </template>
         </Card>
@@ -17,21 +18,20 @@
           <template #title>Напишите нам</template>
           <template #text>
             <ul class="list">
-              <li><a href="mailto:example@example.ru">example@example.ru</a></li>
-              <li><a href="mailto:sugarfox@sugarfox.ru">sugarfox@sugarfox.ru</a></li>
+              <li v-for="mail in MAILS" :key="mail">
+                <a :href="`mailto:${mail}`">{{ mail }}</a>
+              </li>
             </ul>
           </template>
         </Card>
       </v-col>
       <v-col cols="12" sm="4">
-        <Card color="primary" icon="book">
+        <Card color="primary" icon="home-map-marker">
           <template #title>Приезжайте к нам</template>
           <template #text>
-            <p>
-              Московская область, Пушкинский район
-              <br />
-              р-н Лесные поляны, м-н Полянка, д28а
-            </p>
+            Московская область, Пушкинский район
+            <br />
+            посёлок Лесные поляны, микрорайон Полянка, дом 43
           </template>
         </Card>
       </v-col>
@@ -41,9 +41,17 @@
 
 <script lang="ts">
 import { defineComponent } from "@nuxtjs/composition-api"
+import { MAILS, PHONES } from "~/assets/consts"
+import { formatPhone } from "~/assets/util"
 
 export default defineComponent({
-  setup() {},
+  setup() {
+    return {
+      MAILS,
+      PHONES,
+      formatPhone,
+    }
+  },
 })
 </script>
 

@@ -1,23 +1,10 @@
 <template>
   <section id="specialty" class="s-bg--primary-dark">
     <div class="bg">
-      <v-container class="text-center">
-        <h2 class="section-title">Чем мы занимаемся</h2>
-        <h3 class="dispaly-1">Сертификации компании</h3>
-        <p class="mx-sm-8 mx-md-16">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad alias aliquid aspernatur at aut culpa
-          cum dicta ea eos inventore itaque laudantium magni nobis nostrum officia omnis pariatur qui totam, voluptate.
-          Atque consequuntur ea et in incidunt neque sed.
-        </p>
+      <v-container class="text-center container">
+        <h2 class="section-title large">Чем мы занимаемся</h2>
         <v-row no-gutters justify="center" class="mx-sm-8 mx-md-16">
-          <v-col
-            v-for="(col, colIndex) in cards"
-            :key="`card-col-${colIndex}`"
-            cols="12"
-            sm="6"
-            md="4"
-            class="px-xl-16"
-          >
+          <v-col v-for="(col, colIndex) in cards" :key="`card-col-${colIndex}`" cols="12" sm="6" class="px-xl-16">
             <Card color="primary-dark" :icon="col.icon" class="transparent text--white">
               <template #title>{{ col.title }}</template>
               <template #text>
@@ -38,20 +25,18 @@ import { defineComponent } from "@nuxtjs/composition-api"
 
 export default defineComponent({
   setup() {
-    const cards: [string, string][] = [
-      ["home-city-outline", "Дома"],
-      ["warehouse", "Склады"],
-      ["church", "Храмы"],
-      ["bridge", "Мосты"],
-      ["road-variant", "Дороги"],
-      ["highway", "Автострады"],
-    ]
-
     return {
       cards: cards.map((a) => new CardData(...a)),
     }
   },
 })
+
+const cards: [string, string][] = [
+  ["home-city-outline", "Жилые дома", "Мало- и среднеэтажное строительство от получения земли, до сдачи под ключ"],
+  ["warehouse", "Склады, Производственные здания, Торговые центры", "Строительство с нуля, ремонт и реконструкции"],
+  ["church", "Храмы", "Реставрационные работы на кровлях, куполах, фасадах"],
+  ["bridge", "Мосты/Эстакады", "Бетонные работы на опорах и проезжей части мостовых переходов"],
+]
 
 const SampleText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, laboriosam?"
 
@@ -77,4 +62,7 @@ class CardData {
   width: 100% //noinspection CssUnknownTarget
   background: linear-gradient(0deg, rgba(26,26,26,0.9), rgba(26,26,26,0.9)), url("~assets/img/city_bg.png") no-repeat center
   background-size: cover
+
+.container
+  max-width: 1100px
 </style>
