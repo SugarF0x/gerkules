@@ -10,6 +10,7 @@ export default defineComponent({
 <template>
   <div v-frag>
     <projects-header />
+    <projects-content />
   </div>
 </template>
 

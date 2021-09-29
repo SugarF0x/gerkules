@@ -17,8 +17,14 @@ export default {
   css: ["~/assets/global.sass"],
   plugins: ["@/plugins/fragment.ts"],
   components: true,
-  buildModules: ["@nuxt/typescript-build", "@nuxtjs/vuetify", "@nuxtjs/composition-api/module", "@nuxt/image"],
-  modules: ["@nuxt/content"],
+  buildModules: [
+    "@nuxt/typescript-build",
+    "@nuxtjs/vuetify",
+    "@nuxtjs/composition-api/module",
+    "@nuxt/image",
+    ["nuxt-storm", { nested: true, alias: true }],
+  ],
+  modules: [],
   content: {},
   image: {
     dir: "assets/img",
