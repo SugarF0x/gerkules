@@ -10,7 +10,7 @@
       </v-col>
     </v-row>
     <v-container class="d-flex">
-      <Link to="/recent" class="ml-auto" disabled>Подробнее</Link>
+      <Link to="/projects" class="ml-auto">Подробнее</Link>
     </v-container>
   </section>
 </template>

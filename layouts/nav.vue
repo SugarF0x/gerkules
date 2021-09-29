@@ -73,7 +73,7 @@ import { formatPhone } from "~/assets/util"
 
 const links = [
   { text: "О нас", path: "/about", disabled: false },
-  { text: "Проекты", path: "/projects", disabled: true },
+  { text: "Проекты", path: "/projects", disabled: false },
   { text: "Партнёры", path: "/partners", disabled: true },
 ]
 
