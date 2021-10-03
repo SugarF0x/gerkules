@@ -9,14 +9,9 @@ export default defineComponent({
 
 <template>
   <div v-frag>
-    <about-header />
-    <about-info />
-    <about-location />
+    <projects-header />
+    <projects-content />
   </div>
 </template>
 
-<style lang="sass" scoped>
-section::v-deep
-  max-width: 1000px
-  margin: 0 auto
-</style>
+<style lang="scss" scoped></style>

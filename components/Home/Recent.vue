@@ -10,7 +10,7 @@
       </v-col>
     </v-row>
     <v-container class="d-flex">
-      <Link to="/recent" class="ml-auto" disabled>Подробнее</Link>
+      <Link to="/projects" class="ml-auto">Подробнее</Link>
     </v-container>
   </section>
 </template>
@@ -18,7 +18,7 @@
 <script lang="ts">
 import { defineComponent } from "@nuxtjs/composition-api"
 
-const IMAGES = ["yakimanka/front-1.jpg", "yakimanka/inter-1.jpg", "yakimanka/front-2.jpg", "yakimanka/inter-2.jpg"]
+const IMAGES = ["projects/yakimanka/1.jpg", "projects/yakimanka/3.jpg", "projects/yakimanka/2.jpg", "projects/yakimanka/4.jpg"]
 
 export default defineComponent({
   setup() {

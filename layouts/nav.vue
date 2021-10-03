@@ -73,7 +73,7 @@ import { formatPhone } from "~/assets/util"
 
 const links = [
   { text: "О нас", path: "/about", disabled: false },
-  { text: "Проекты", path: "/projects", disabled: true },
+  { text: "Проекты", path: "/projects", disabled: false },
   { text: "Партнёры", path: "/partners", disabled: true },
 ]
 
@@ -135,6 +135,5 @@ footer
 </style>
 
 <style lang="sass">
-.v-toolbar__content
-  padding-right: 0
+
 </style>
