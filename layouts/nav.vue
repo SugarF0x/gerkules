@@ -135,6 +135,5 @@ footer
 </style>
 
 <style lang="sass">
-.v-toolbar__content
-  padding-right: 0
+
 </style>
