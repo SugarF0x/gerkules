@@ -2,7 +2,7 @@
   <header id="header" class="bg-image">
     <v-container class="fill-height">
       <v-row justify="center" align="center" class="flex-column mt-n16">
-        <v-img src="/logo_large.png" width="228" height="188" />
+        <v-img src="/logo_white_lq.png" width="228" height="228" />
         <v-col cols="10" lg="8" class="mt-16">
           <div class="title-block">
             <h5 class="company-subtitle">Производственно-строительная компания</h5>

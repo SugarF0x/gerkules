@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <v-img src="/logo_small.png" class="image" height="48" width="48" />
+    <v-img src="/logo_white_lq_min.png" class="image" height="48" width="48" />
   </div>
 </template>
 
