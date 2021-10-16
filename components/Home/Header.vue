@@ -6,7 +6,7 @@
         <v-col cols="10" lg="8" class="mt-16">
           <div class="title-block">
             <h5 class="company-subtitle">Производственно-строительная компания</h5>
-            <h1 class="company-title">«Геркулес»</h1>
+            <h1 class="company-title">Геркулес</h1>
             <ul class="description-list">
               <li>Строительство</li>
               <li>Реконструкция</li>
@@ -70,21 +70,21 @@ export default defineComponent({
 
 .company-subtitle
   text-transform: uppercase
-  letter-spacing: 3px
+  letter-spacing: 5px
   font-weight: 700
-  font-family: "Courier New", monospace
+  font-family: "Agency", monospace
 
 .company-title
   margin-bottom: 7px
-  font-family: "Book Antiqua", monospace
+  font-family: "Agency", monospace
+  font-size: 5rem
 
 .description-list
   list-style: none
   padding: 0
-  font-size: .9em
   font-weight: 400
   line-height: 1.3
-  letter-spacing: .5px
+  letter-spacing: 1.5px
   font-style: italic
-  font-family: "Century Gothic", sans-serif
+  font-family: "Agency", sans-serif
 </style>
