@@ -18,7 +18,7 @@
       <router-link to="/" class="link">
         <v-toolbar-title class="logo">
           <Logo />
-          <span> Геркулес </span>
+          <span> hercules </span>
         </v-toolbar-title>
       </router-link>
 
@@ -101,6 +101,7 @@ export default defineComponent({
   text-decoration: none
   font-size: 2rem
   color: white
+  font-family: 'Ganimed', sans-serif
 
   span
     margin-left: .5rem
@@ -134,6 +135,4 @@ footer
       text-decoration: underline
 </style>
 
-<style lang="sass">
-
-</style>
+<style lang="sass"></style>

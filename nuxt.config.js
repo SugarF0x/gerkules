@@ -12,7 +12,7 @@ export default {
       { hid: "author", name: "author", content: "github.com/SugarF0x" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/logo_small.png" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
   },
   css: ["~/assets/global.sass"],
   plugins: ["@/plugins/fragment.ts"],
@@ -30,7 +30,7 @@ export default {
     dir: "assets/img",
   },
   vuetify: {
-    customVariables: ["~/assets/variables.scss"]
+    customVariables: ["~/assets/variables.scss"],
   },
   build: {
     babel: {
