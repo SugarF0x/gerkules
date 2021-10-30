@@ -19,8 +19,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Bump version and push tag
-      uses: TriPSs/conventional-changelog-action@master
+    - name: Conventional Changelog Action
+      uses: TriPSs/conventional-changelog-action@v3
       with:
         git-message: 'chore(release): {version}'
     
