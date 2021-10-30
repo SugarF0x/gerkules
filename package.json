@@ -1,6 +1,6 @@
 {
   "name": "gerkules",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -12,7 +12,10 @@
     "lint": "npm run lint:js"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": ["eslint", "prettier --write"]
+    "*.{js,ts,vue}": [
+      "eslint",
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@nuxtjs/composition-api": "^0.26.0",
