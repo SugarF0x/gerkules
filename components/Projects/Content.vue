@@ -2,6 +2,8 @@
 import { defineComponent } from "@nuxtjs/composition-api"
 import { Project } from "~/assets/types"
 
+// test change to affect patch version (current 0.4.1)
+
 const CONTENT: Project[] = [
   {
     code: "yakimanka",
