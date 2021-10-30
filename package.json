@@ -12,7 +12,7 @@
     "lint": "npm run lint:js"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint"
+    "*.{js,ts,vue}": ["eslint", "prettier --write"]
   },
   "dependencies": {
     "@nuxtjs/composition-api": "^0.26.0",
