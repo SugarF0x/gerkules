@@ -1,5 +1,6 @@
 export default {
   target: "static",
+  ssr: false,
   head: {
     title: "Геркулес",
     htmlAttrs: {
@@ -24,7 +25,11 @@ export default {
     "@nuxt/image",
     ["nuxt-storm", { nested: true, alias: true }],
   ],
-  modules: [],
+  modules: ["@nuxtjs/robots", "@nuxtjs/sitemap"],
+  robots: {},
+  sitemap: {
+    hostname: "https://hercules-construct.ru",
+  },
   content: {},
   image: {
     dir: "assets/img",

@@ -1,9 +1,15 @@
 <script lang="ts">
-import { defineComponent } from "@nuxtjs/composition-api"
+import { defineComponent, useMeta } from "@nuxtjs/composition-api"
 
 export default defineComponent({
   layout: "nav",
-  setup() {},
+  setup() {
+    useMeta({
+      title: "О нас",
+      description: "Подробнее о компании Геркулес - её история и контактная информация",
+    })
+  },
+  head: {},
 })
 </script>
 
