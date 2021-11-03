@@ -1,3 +1,12 @@
+## [0.4.4](https://github.com/SugarF0x/gerkules/compare/v0.4.3...v0.4.4) (2021-11-03)
+
+
+### Bug Fixes
+
+* add missing head key ([b348dba](https://github.com/SugarF0x/gerkules/commit/b348dba0e68e84b439386e43cc55ccdf0f435970))
+
+
+
 ## [0.4.3](https://github.com/SugarF0x/gerkules/compare/v0.4.2...v0.4.3) (2021-11-03)
 
 
@@ -24,10 +33,6 @@
 
 
 # [0.3.0](https://github.com/SugarF0x/gerkules/compare/v0.2.0...v0.3.0) (2021-09-12)
-
-
-
-# 0.2.0 (2021-09-06)
 
 
 
