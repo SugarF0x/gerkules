@@ -9,6 +9,7 @@ export default defineComponent({
       description: "Галерея последних проектов, над которыми работала компания Геркулес",
     })
   },
+  head: {},
 })
 </script>
 
