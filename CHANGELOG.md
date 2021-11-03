@@ -1,3 +1,14 @@
+## [0.4.3](https://github.com/SugarF0x/gerkules/compare/v0.4.2...v0.4.3) (2021-11-03)
+
+
+### Bug Fixes
+
+* add proper titles to different pages ([7137d35](https://github.com/SugarF0x/gerkules/commit/7137d35c830c478fe307f33f4c01ee67617ab9bc))
+* disable ssr ([4300638](https://github.com/SugarF0x/gerkules/commit/4300638375f5a026e467dce54ef984d14ae102af))
+* setup sitemap and robots ([83cbc8e](https://github.com/SugarF0x/gerkules/commit/83cbc8e2abafdde583ff669ef1bf9e625534779d))
+
+
+
 ## [0.4.2](https://github.com/SugarF0x/gerkules/compare/v0.3.1...v0.4.2) (2021-10-30)
 
 
