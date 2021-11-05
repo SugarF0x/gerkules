@@ -1,3 +1,12 @@
+## [0.4.5](https://github.com/SugarF0x/gerkules/compare/v0.4.4...v0.4.5) (2021-11-04)
+
+
+### Bug Fixes
+
+* revert ssr change ([2165c95](https://github.com/SugarF0x/gerkules/commit/2165c95a2edb945bfc79afe0083557376ba9757b))
+
+
+
 ## [0.4.4](https://github.com/SugarF0x/gerkules/compare/v0.4.3...v0.4.4) (2021-11-03)
 
 
@@ -29,10 +38,6 @@
 
 
 ## [0.3.1](https://github.com/SugarF0x/gerkules/compare/v0.3.0...v0.3.1) (2021-09-12)
-
-
-
-# [0.3.0](https://github.com/SugarF0x/gerkules/compare/v0.2.0...v0.3.0) (2021-09-12)
 
 
 
