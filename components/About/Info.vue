@@ -20,7 +20,7 @@
           </p>
         </v-col>
         <v-col cols="12" sm="4" class="pa-0 pa-sm-4">
-          <pre-image src="businessman.jpg" aspect-ratio="0.8" />
+          <pre-image src="businessman.webp" aspect-ratio="0.8" />
         </v-col>
       </v-row>
 
@@ -29,7 +29,7 @@
         технологических решений и подходов, заимствованных из США и Канады.
       </p>
 
-      <pre-image aspect-ratio="1.5" src="about_collage.png" />
+      <pre-image aspect-ratio="1.5" src="about_collage.webp" />
 
       <p class="mt-8 mt-sm-5">
         Кроме выполнения функций подрядчика,ген.подрядчика в строительстве за этот период был накоплен значительный опыт

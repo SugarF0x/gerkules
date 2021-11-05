@@ -18,7 +18,12 @@
 <script lang="ts">
 import { defineComponent } from "@nuxtjs/composition-api"
 
-const IMAGES = ["projects/yakimanka/1.jpg", "projects/yakimanka/3.jpg", "projects/yakimanka/2.jpg", "projects/yakimanka/4.jpg"]
+const IMAGES = [
+  "projects/yakimanka/1.webp",
+  "projects/yakimanka/3.webp",
+  "projects/yakimanka/2.webp",
+  "projects/yakimanka/4.webp",
+]
 
 export default defineComponent({
   setup() {

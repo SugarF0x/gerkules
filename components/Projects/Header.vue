@@ -14,7 +14,7 @@ export default defineComponent({
 
 <style lang="sass" scoped>
 #header
-  background: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("~assets/img/projects_header.jpg") no-repeat center
+  background: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("~assets/img/projects_header.webp") no-repeat center
   background-size: cover
   min-height: 10vw
   display: flex

@@ -19,7 +19,7 @@ export default defineComponent({
       <v-col cols="12" md="3">
         <v-carousel height="auto">
           <v-carousel-item v-for="n in project.images" :key="n">
-            <pre-image :src="`projects/${project.code}/${n}.jpg`" />
+            <pre-image :src="`projects/${project.code}/${n}.webp`" />
           </v-carousel-item>
         </v-carousel>
       </v-col>
