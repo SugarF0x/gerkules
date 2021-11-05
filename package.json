@@ -40,6 +40,7 @@
     "eslint-plugin-vue": "^7.12.1",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
+    "nuxt-compress": "^5.0.0",
     "nuxt-storm": "git+https://github.com/SugarF0x/nuxt-storm.git",
     "prettier": "^2.3.2"
   }

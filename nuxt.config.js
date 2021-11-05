@@ -22,6 +22,7 @@ export default {
     "@nuxtjs/vuetify",
     "@nuxtjs/composition-api/module",
     "@nuxt/image",
+    "nuxt-compress",
     ["nuxt-storm", { nested: true, alias: true }],
   ],
   modules: ["@nuxtjs/robots", "@nuxtjs/sitemap"],
@@ -42,6 +43,6 @@ export default {
     },
   },
   generate: {
-    interval: 2000,
+    interval: 1000,
   },
 }
