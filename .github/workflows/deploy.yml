@@ -33,3 +33,4 @@ jobs:
     - run: npm i
     - run: npm run build
     - run: npm run generate
+    - run: npm run zip
