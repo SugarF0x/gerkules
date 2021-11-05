@@ -1,3 +1,13 @@
+## [0.4.6](https://github.com/SugarF0x/gerkules/compare/v0.4.5...v0.4.6) (2021-11-05)
+
+
+### Bug Fixes
+
+* **assets:** add file compression ([3dea6e8](https://github.com/SugarF0x/gerkules/commit/3dea6e8e99e8b5c023aee4f74497b1d9f5c7051a))
+* **assets:** compress images & convert to webp ([1cda06b](https://github.com/SugarF0x/gerkules/commit/1cda06bbaf03d8b821331dd3ac8e1e4fa35b263b))
+
+
+
 ## [0.4.5](https://github.com/SugarF0x/gerkules/compare/v0.4.4...v0.4.5) (2021-11-04)
 
 
@@ -34,10 +44,6 @@
 
 * add comment to see changelog generation ([deb543c](https://github.com/SugarF0x/gerkules/commit/deb543cb064249478449b71e1ff29c260c659b06))
 * CCA version ([ad9eb6f](https://github.com/SugarF0x/gerkules/commit/ad9eb6fba2c8bdc436ed9879c7073654a3bce48f))
-
-
-
-## [0.3.1](https://github.com/SugarF0x/gerkules/compare/v0.3.0...v0.3.1) (2021-09-12)
 
 
 
