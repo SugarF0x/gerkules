@@ -1,3 +1,12 @@
+## [0.4.7](https://github.com/SugarF0x/gerkules/compare/v0.4.6...v0.4.7) (2021-11-05)
+
+
+### Bug Fixes
+
+* **assets:** gzip html files post-gen ([14d0b12](https://github.com/SugarF0x/gerkules/commit/14d0b125bb8c274129f9e338f4f7d9526c39351c))
+
+
+
 ## [0.4.6](https://github.com/SugarF0x/gerkules/compare/v0.4.5...v0.4.6) (2021-11-05)
 
 
@@ -34,16 +43,6 @@
 * add proper titles to different pages ([7137d35](https://github.com/SugarF0x/gerkules/commit/7137d35c830c478fe307f33f4c01ee67617ab9bc))
 * disable ssr ([4300638](https://github.com/SugarF0x/gerkules/commit/4300638375f5a026e467dce54ef984d14ae102af))
 * setup sitemap and robots ([83cbc8e](https://github.com/SugarF0x/gerkules/commit/83cbc8e2abafdde583ff669ef1bf9e625534779d))
-
-
-
-## [0.4.2](https://github.com/SugarF0x/gerkules/compare/v0.3.1...v0.4.2) (2021-10-30)
-
-
-### Bug Fixes
-
-* add comment to see changelog generation ([deb543c](https://github.com/SugarF0x/gerkules/commit/deb543cb064249478449b71e1ff29c260c659b06))
-* CCA version ([ad9eb6f](https://github.com/SugarF0x/gerkules/commit/ad9eb6fba2c8bdc436ed9879c7073654a3bce48f))
 
 
 
