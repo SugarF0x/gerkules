@@ -5,11 +5,14 @@
         <Card color="primary" icon="phone">
           <template #title>Позвоните нам</template>
           <template #text>
-            <ul class="list">
+            <ul v-if="PHONES.length" class="list">
               <li v-for="phone in PHONES" :key="phone">
                 <a :href="`tel:${phone}`">{{ formatPhone(phone) }}</a>
               </li>
             </ul>
+            <div v-else>
+              На данный момент телефонные номера недоступны
+            </div>
           </template>
         </Card>
       </v-col>

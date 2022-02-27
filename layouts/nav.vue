@@ -41,11 +41,14 @@
         <v-row>
           <v-col cols="12" sm="4">
             <h3>Контактные номера</h3>
-            <ul>
+            <ul v-if="PHONES.length">
               <li v-for="phone in PHONES" :key="phone">
                 <a :href="`tel:${phone}`">{{ formatPhone(phone) }}</a>
               </li>
             </ul>
+            <div v-else>
+              На данный момент телефонные номера недоступны
+            </div>
           </v-col>
           <v-col cols="12" sm="4" class="copyright">
             <Logo class="logo" />
